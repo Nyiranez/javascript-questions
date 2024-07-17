@@ -194,7 +194,7 @@ grade(60);
 //     How to calculate Body Mass Index:
 //
 function bmi(weight,height){
-    let BMI=weight/(height+height);
+    let BMI=weight/(height*height);
     console.log(BMI);
 }
 bmi(20,2);
